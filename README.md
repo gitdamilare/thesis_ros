@@ -54,7 +54,7 @@ roslaunch pfh_subscriber_fn pfh_lstm.launch
 ```
 finally to see the aggregated results, use the following command in a new terminal after sourcing.
 ```
-rosrun pfh_subscribers_fn pfh_lstm_aggregator.py
+rosrun pfh_subscriber_fn pfh_lstm_aggregator.py
 ```
 
 ## Change LSTM Model 
