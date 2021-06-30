@@ -37,6 +37,10 @@ now you can run the publisher package with following command in this same termin
 ```
 rosrun pfh_publisher pfh_publisher_node
 ```
+<strong>It important to note that, all subscribers nodes needs to be connected to the publisher before it starts publishing. The line that code that ensures that can be commented out if not needed in <strong>HistogramPublisher.cpp</strong> ln 25-26 </br>
+```
+~/catkin_ws/src/ros_thesis/simulation/pfh_publisher/src/HistogramPublisher.cpp
+```
 
 ## Running Subscriber Package
 To start the current subscriber package that listens to messsage on <i>/pf_histogram</i> topic, open terminal to run the following:</br>
